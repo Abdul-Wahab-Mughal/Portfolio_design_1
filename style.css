@@ -1,0 +1,90 @@
+:root {
+  --app: #bb72d0;
+  --back: #282c33;
+}
+* {
+  font-family: "Fira Code", monospace;
+}
+.bg-back {
+  background-color: var(--back);
+}
+.bg-t {
+  background-color: transparent !important;
+}
+.border-color {
+  border-color: var(--app) !important;
+}
+.app-text {
+  color: var(--app) !important;
+}
+.flex-1 {
+  flex: 1;
+}
+.w-fit {
+  width: fit-content;
+}
+.t-12 {
+  font-size: 12px;
+}
+.t-14 {
+  font-size: 14px;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.box-s {
+  width: 100px;
+  height: 150px;
+  border: 2px solid white;
+}
+
+nav a {
+  height: fit-content;
+}
+nav a:hover {
+  color: white !important;
+}
+
+#menu-list {
+  top: 75px;
+}
+
+.menutoggle {
+  display: flex !important;
+}
+
+.top-line {
+  width: 1px;
+  height: 250px;
+}
+.myimage {
+  width: 100%;
+}
+.current div:first-child {
+  background-color: var(--app);
+  width: 20px;
+  height: 20px;
+}
+
+.h-line div {
+  height: 2px;
+  width: 50%;
+  background-color: var(--app);
+}
+
+.card:hover,
+.card .btn:hover {
+  border-color: var(--app) !important;
+}
+.mobile {
+  width: 75%;
+}
+
+@media only screen and (max-width: 600px) {
+  .mobile {
+    width: 100%;
+  }
+}
